@@ -21,25 +21,25 @@
 
 1. Клонування репозиторію:
 bash :
-git clone https://github.com/your-username/resume-generator.git
-cd resume-generator
+ - git clone https://github.com/TetianaHodis1308/test-task-keenethics.git
+- cd test-task-keenethics
 
 
 2. Встановлення залежностей: 
 - Для бекенду:
-cd backend
-npm install
+    - cd backend
+    - npm install
 
 - Для фронтенду:
-cd ../frontend
-npm install
+    - cd ../frontend
+    - npm install
 
 3. Запуск серверної частини
-cd ../backend
-node index.js
+    - cd ../backend
+    - node index.js
 
 За замовчуванням сервер запуститься на порту 8081.
 
 4. Запуск фронтенду
-cd ../frontend
-npm run dev
+  - cd ../frontend
+  - npm run dev
