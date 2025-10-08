@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post("/generate-resume", async (req, res) => {
+app.post("/", async (req, res) => {
   try {
     const {
       name,
