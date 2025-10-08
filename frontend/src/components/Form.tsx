@@ -48,7 +48,7 @@ const Form = () => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await fetch('/generate-resume', {
+      const response = await fetch('https://test-task-keenethics.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
