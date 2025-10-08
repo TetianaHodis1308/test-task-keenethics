@@ -6,6 +6,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Resume Generator Backend is running');
+});
+
+
 app.post("/generate-resume", async (req, res) => {
   try {
     const {
