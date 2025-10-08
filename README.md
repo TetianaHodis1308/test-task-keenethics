@@ -2,6 +2,16 @@
 
 Простий веб-додаток, який формує коротке резюме у форматі `.docx` на основі анкети користувача.
 
+## Deploy:
+
+- Frontend:
+Фронтенд побудований за допомогою Vite + React і задеплойований на GitHub Pages.
+[Demo](https://tetianahodis1308.github.io/test-task-keenethics/)
+
+- Backend:
+Бекенд написаний на Node.js + Express і розгорнутий на Render.com.
+[Публічна URL-адреса бекенду](https://test-task-keenethics.onrender.com)
+
 ## Функціонал
 
 - Заповнення форми з даними (ім’я, посада, місто, навички, досвід тощо)
